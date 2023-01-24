@@ -1,0 +1,23 @@
+{
+  "name": "weatherclileiko",
+  "version": "1.0.0",
+  "description": "'weather cli for learning node.js'",
+  "main": "weather.js",
+  "bin": {
+    "weather": "weather.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "weather"
+  ],
+  "author": "lizaveta leiko",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.3",
+    "chalk": "^5.2.0",
+    "dedent": "^0.7.0"
+  }
+}
